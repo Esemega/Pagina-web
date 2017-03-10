@@ -4,6 +4,13 @@ body{
 
 h1{
 	font-style: arial;
+	font-size: 50px;
+	color: green;
+}
+
+p{
+	font-weight: bold;
+	color: white;
 }
 
 div{
