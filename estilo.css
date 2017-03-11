@@ -1,5 +1,19 @@
 body{
-	background: orange;
+	background: blue;
+}
+
+h1{
+	font-style: arial;
+	font-size: 50px;
+	color: green;
+}
+
+p{
+	font-weight: bold;
+	color: white;
+}
+aside{
+	background-color: black;
 }
 
 div{
@@ -7,12 +21,22 @@ div{
 	margin: 10% ;
 	width: 80%;
 	display: inline-block;
+	background: red;
+}
+
+footer>div{
+	height: 50px;
+	width: 80%;
+	display: inline-block;
 	background: white;
+}
+footer>div>p{
+	color: black;
 }
 
 @media screen and (min-width: 480px){
 	body{
-		background: green;
+		background: white;
 
 	}
 
@@ -20,7 +44,7 @@ div{
 
 @media screen and (min-width: 767px){
 	body{
-		background: red;
+		background: chocolate;
 		
 	}
 
@@ -34,7 +58,7 @@ div{
 
 @media screen and (min-width: 950px){
 	body{
-		background: violet;
+		background: green;
 		
 	}
 
